@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/curReact/static/js/main.fbf294df.js",
+    "main.js": "/curReact/static/js/main.e9672f3d.js",
     "index.html": "/curReact/index.html",
-    "main.fbf294df.js.map": "/curReact/static/js/main.fbf294df.js.map"
+    "main.e9672f3d.js.map": "/curReact/static/js/main.e9672f3d.js.map"
   },
   "entrypoints": [
-    "static/js/main.fbf294df.js"
+    "static/js/main.e9672f3d.js"
   ]
 }
