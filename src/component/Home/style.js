@@ -12,13 +12,18 @@ export default createGlobalStyle`
 export const Main = styled.main`
     background-image: url("https://wallpaper.dog/large/11047086.jpg");
     background-repeat:no-repeat;
-    background-attachment: fixed;
     background-size:100%;
+    background-attachment: fixed;
     min-height: 97vh;
     width: 100%;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     padding:10px 0;
+
+    @media (max-width: 1024px){
+        background-size:cover;
+    }
+
     `;
 
 
@@ -39,6 +44,19 @@ export const Card = styled.div`
     padding: 15px;
     border: 1px solid #fff;
     border-radius: 10px;
+
+    @media (max-width: 1024px){
+        width: 25%
+        
+    }
+    @media (max-width: 768px){
+        width: 35%
+        
+    }
+    @media (max-width: 425px){
+        width: 80%
+        
+    }
 `;
 export const CorDiferenca = styled.p`
     color: ${props => {if(props.green){
